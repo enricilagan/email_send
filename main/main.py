@@ -93,7 +93,7 @@ def main():
     #Creates the budget content
     create_budget_body(df_budget_html, df_essentials_html, df_weekly_html, cc_dues_html, t_stamp, params['content'])
 
-    send_mail(params, today, t_stamp)
+    # send_mail(params, today, t_stamp)
 
 if __name__ == '__main__':
     main()
